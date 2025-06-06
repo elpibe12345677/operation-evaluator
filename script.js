@@ -8,6 +8,7 @@ if (path.startsWith(base)) {
 }
 
 const operacion = decodeURIComponent(path);
+console.log(operacion);
 
 let resultado = "No se encontró ninguna operación";
 
@@ -18,5 +19,6 @@ if (operacion) {
     resultado = "Error evaluando la operación";
   }
 }
+consoloe.log(resultado);
 
 document.getElementById("resultado").textContent = resultado;
