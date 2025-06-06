@@ -19,6 +19,6 @@ if (operacion) {
     resultado = "Error evaluando la operación";
   }
 }
-consoloe.log(resultado);
+console.log(resultado);
 
 document.getElementById("resultado").textContent = resultado;
